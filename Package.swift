@@ -46,7 +46,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.19.0"),
 
         // Swift logging API
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
+        .package(url: "https://github.com/apple/swift-log.git", branch: "main"),
 
         // Swift metrics API
         .package(url: "https://github.com/apple/swift-metrics.git", from: "2.0.0"),
